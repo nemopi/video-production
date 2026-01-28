@@ -1,0 +1,71 @@
+model = "gpt-5.2-codex"
+preferred_auth_method = "chatgpt"
+
+[features]
+web_search_request = true
+
+[mcp_servers.remotion-documentation]
+command = "npx"
+args = ["@remotion/mcp@latest"]
+timeout = 30000
+trust = true
+
+[mcp_servers."file-upload-kamui-fal"]
+command = "npx"
+args = ["mcp-remote", "https://kamui-code.ai/uploader/fal", "--transport", "http-only", "--header", "KAMUI-CODE-PASS: kamui_Dpcha0qsvsuvbrdieb7Br8Bse3ufxPBNiNrDdJXokZk"]
+timeout = 10000
+trust = true
+
+[mcp_servers."train-kamui-flux-kontext"]
+command = "npx"
+args = ["mcp-remote", "https://kamui-code.ai/train/fal/flux/kontext", "--transport", "http-only", "--header", "KAMUI-CODE-PASS: kamui_Dpcha0qsvsuvbrdieb7Br8Bse3ufxPBNiNrDdJXokZk"]
+timeout = 10000
+trust = true
+
+[mcp_servers."video-analysis-kamui"]
+command = "npx"
+args = ["mcp-remote", "https://kamui-code.ai/video-analysis/google/gemini", "--transport", "http-only", "--header", "KAMUI-CODE-PASS: kamui_Dpcha0qsvsuvbrdieb7Br8Bse3ufxPBNiNrDdJXokZk"]
+timeout = 10000
+trust = true
+
+[mcp_servers."t2i-kamui-dreamina-v31"]
+command = "npx"
+args = ["mcp-remote", "https://kamui-code.ai/t2i/fal/bytedance/dreamina/v3.1/text-to-image", "--transport", "http-only", "--header", "KAMUI-CODE-PASS: kamui_Dpcha0qsvsuvbrdieb7Br8Bse3ufxPBNiNrDdJXokZk"]
+timeout = 10000
+trust = true
+
+[mcp_servers."t2i-kamui-flux-krea-lora"]
+command = "npx"
+args = ["mcp-remote", "https://kamui-code.ai/t2i/fal/flux-krea-lora", "--transport", "http-only", "--header", "KAMUI-CODE-PASS: kamui_Dpcha0qsvsuvbrdieb7Br8Bse3ufxPBNiNrDdJXokZk"]
+timeout = 10000
+trust = true
+
+[mcp_servers."t2i-kamui-flux-schnell"]
+command = "npx"
+args = ["mcp-remote", "https://kamui-code.ai/t2i/fal/flux/schnell", "--transport", "http-only", "--header", "KAMUI-CODE-PASS: kamui_Dpcha0qsvsuvbrdieb7Br8Bse3ufxPBNiNrDdJXokZk"]
+timeout = 10000
+trust = true
+
+[mcp_servers."t2i-kamui-flux-srpo"]
+command = "npx"
+args = ["mcp-remote", "https://kamui-code.ai/t2i/fal/flux/srpo", "--transport", "http-only", "--header", "KAMUI-CODE-PASS: kamui_Dpcha0qsvsuvbrdieb7Br8Bse3ufxPBNiNrDdJXokZk"]
+timeout = 10000
+trust = true
+
+[mcp_servers."t2i-kamui-ideogram-character-base"]
+command = "npx"
+args = ["mcp-remote", "https://kamui-code.ai/t2i/fal/ideogram/character-base", "--transport", "http-only", "--header", "KAMUI-CODE-PASS: kamui_Dpcha0qsvsuvbrdieb7Br8Bse3ufxPBNiNrDdJXokZk"]
+timeout = 10000
+trust = true
+
+[mcp_servers."t2i-kamui-imagen3"]
+command = "npx"
+args = ["mcp-remote", "https://kamui-code.ai/t2i/google/imagen", "--transport", "http-only", "--header", "KAMUI-CODE-PASS: kamui_Dpcha0qsvsuvbrdieb7Br8Bse3ufxPBNiNrDdJXokZk"]
+timeout = 10000
+trust = true
+
+[mcp_servers."t2i-kamui-imagen4-fast"]
+command = "npx"
+args = ["mcp-remote", "https://kamui-code.ai/t2i/fal/imagen4/fast", "--transport", "http-only", "--header", "KAMUI-CODE-PASS: kamui_Dpcha0qsvsuvbrdieb7Br8Bse3ufxPBNiNrDdJXokZk"]
+timeout = 10000
+trust = true

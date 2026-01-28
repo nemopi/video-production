@@ -1,0 +1,221 @@
+[mcp_servers."i2v-kamui-veo3-fast"]
+command = "npx"
+args = ["mcp-remote", "https://kamui-code.ai/i2v/fal/veo3/fast", "--transport", "http-only", "--header", "KAMUI-CODE-PASS: kamui_Dpcha0qsvsuvbrdieb7Br8Bse3ufxPBNiNrDdJXokZk"]
+timeout = 10000
+trust = true
+
+[mcp_servers."i2v-kamui-wan-v2-2-a14b"]
+command = "npx"
+args = ["mcp-remote", "https://kamui-code.ai/i2v/fal/wan/v2.2-a14b", "--transport", "http-only", "--header", "KAMUI-CODE-PASS: kamui_Dpcha0qsvsuvbrdieb7Br8Bse3ufxPBNiNrDdJXokZk"]
+timeout = 10000
+trust = true
+
+[mcp_servers."a2v-kamui-kling-video-v1-pro-ai-avatar"]
+command = "npx"
+args = ["mcp-remote", "https://kamui-code.ai/a2v/fal/kling-video/v1/pro/ai-avatar", "--transport", "http-only", "--header", "KAMUI-CODE-PASS: kamui_Dpcha0qsvsuvbrdieb7Br8Bse3ufxPBNiNrDdJXokZk"]
+timeout = 10000
+trust = true
+
+[mcp_servers."v2v-kamui-bria-bg-removal"]
+command = "npx"
+args = ["mcp-remote", "https://kamui-code.ai/video/fal/bria/background-removal", "--transport", "http-only", "--header", "KAMUI-CODE-PASS: kamui_Dpcha0qsvsuvbrdieb7Br8Bse3ufxPBNiNrDdJXokZk"]
+timeout = 10000
+trust = true
+
+[mcp_servers."v2v-kamui-creatify-lipsync"]
+command = "npx"
+args = ["mcp-remote", "https://kamui-code.ai/v2v/fal/creatify/lipsync", "--transport", "http-only", "--header", "KAMUI-CODE-PASS: kamui_Dpcha0qsvsuvbrdieb7Br8Bse3ufxPBNiNrDdJXokZk"]
+timeout = 10000
+trust = true
+
+[mcp_servers."v2v-kamui-decart-lucy-edit-pro"]
+command = "npx"
+args = ["mcp-remote", "https://kamui-code.ai/v2v/fal/decart/lucy-edit/pro", "--transport", "http-only", "--header", "KAMUI-CODE-PASS: kamui_Dpcha0qsvsuvbrdieb7Br8Bse3ufxPBNiNrDdJXokZk"]
+timeout = 10000
+trust = true
+
+[mcp_servers."v2v-kamui-heygen-video-translate"]
+command = "npx"
+args = ["mcp-remote", "https://kamui-code.ai/v2v/replicate/heygen/video-translate", "--transport", "http-only", "--header", "KAMUI-CODE-PASS: kamui_Dpcha0qsvsuvbrdieb7Br8Bse3ufxPBNiNrDdJXokZk"]
+timeout = 10000
+trust = true
+
+[mcp_servers."v2v-kamui-luma-ray2"]
+command = "npx"
+args = ["mcp-remote", "https://kamui-code.ai/v2v/fal/luma/dream-machine/ray-2/modify", "--transport", "http-only", "--header", "KAMUI-CODE-PASS: kamui_Dpcha0qsvsuvbrdieb7Br8Bse3ufxPBNiNrDdJXokZk"]
+timeout = 10000
+trust = true
+
+[mcp_servers."v2v-kamui-minimax-voice"]
+command = "npx"
+args = ["mcp-remote", "https://kamui-code.ai/v2v/fal/minimax/voice-design", "--transport", "http-only", "--header", "KAMUI-CODE-PASS: kamui_Dpcha0qsvsuvbrdieb7Br8Bse3ufxPBNiNrDdJXokZk"]
+timeout = 10000
+trust = true
+
+[mcp_servers."v2v-kamui-pixverse-extend"]
+command = "npx"
+args = ["mcp-remote", "https://kamui-code.ai/v2v/fal/pixverse/extend", "--transport", "http-only", "--header", "KAMUI-CODE-PASS: kamui_Dpcha0qsvsuvbrdieb7Br8Bse3ufxPBNiNrDdJXokZk"]
+timeout = 10000
+trust = true
+
+[mcp_servers."v2v-kamui-pixverse-lipsync"]
+command = "npx"
+args = ["mcp-remote", "https://kamui-code.ai/v2v/fal/pixverse/lipsync", "--transport", "http-only", "--header", "KAMUI-CODE-PASS: kamui_Dpcha0qsvsuvbrdieb7Br8Bse3ufxPBNiNrDdJXokZk"]
+timeout = 10000
+trust = true
+
+[mcp_servers."v2v-kamui-runway-aleph"]
+command = "npx"
+args = ["mcp-remote", "https://kamui-code.ai/v2v/runway/aleph", "--transport", "http-only", "--header", "KAMUI-CODE-PASS: kamui_Dpcha0qsvsuvbrdieb7Br8Bse3ufxPBNiNrDdJXokZk"]
+timeout = 10000
+trust = true
+
+[mcp_servers."v2v-kamui-topaz-upscale"]
+command = "npx"
+args = ["mcp-remote", "https://kamui-code.ai/v2v/fal/topaz/upscale-video", "--transport", "http-only", "--header", "KAMUI-CODE-PASS: kamui_Dpcha0qsvsuvbrdieb7Br8Bse3ufxPBNiNrDdJXokZk"]
+timeout = 10000
+trust = true
+
+[mcp_servers."v2v-kamui-hunyuan-video-foley"]
+command = "npx"
+args = ["mcp-remote", "https://kamui-code.ai/v2v/fal/hunyuan/video-foley", "--transport", "http-only", "--header", "KAMUI-CODE-PASS: kamui_Dpcha0qsvsuvbrdieb7Br8Bse3ufxPBNiNrDdJXokZk"]
+timeout = 10000
+trust = true
+
+[mcp_servers."v2sfx-kamui-mirelo-video-to-sfx"]
+command = "npx"
+args = ["mcp-remote", "https://kamui-code.ai/v2sfx/replicate/mirelo/video-to-sfx", "--transport", "http-only", "--header", "KAMUI-CODE-PASS: kamui_Dpcha0qsvsuvbrdieb7Br8Bse3ufxPBNiNrDdJXokZk"]
+timeout = 10000
+trust = true
+
+[mcp_servers."r2v-kamui-vidu-q1"]
+command = "npx"
+args = ["mcp-remote", "https://kamui-code.ai/r2v/fal/vidu/q1", "--transport", "http-only", "--header", "KAMUI-CODE-PASS: kamui_Dpcha0qsvsuvbrdieb7Br8Bse3ufxPBNiNrDdJXokZk"]
+timeout = 10000
+trust = true
+
+[mcp_servers."r2v-kamui-bytedance-seedance-v1-lite"]
+command = "npx"
+args = ["mcp-remote", "https://kamui-code.ai/r2v/fal/bytedance/seedance-v1-lite", "--transport", "http-only", "--header", "KAMUI-CODE-PASS: kamui_Dpcha0qsvsuvbrdieb7Br8Bse3ufxPBNiNrDdJXokZk"]
+timeout = 10000
+trust = true
+
+[mcp_servers."s2v-kamui-wan-v2-2-14b"]
+command = "npx"
+args = ["mcp-remote", "https://kamui-code.ai/s2v/fal/wan/v2.2-14b", "--transport", "http-only", "--header", "KAMUI-CODE-PASS: kamui_Dpcha0qsvsuvbrdieb7Br8Bse3ufxPBNiNrDdJXokZk"]
+timeout = 10000
+trust = true
+
+[mcp_servers."tts-kamui-kling-video-v1"]
+command = "npx"
+args = ["mcp-remote", "https://kamui-code.ai/tts/fal/kling-video/v1", "--transport", "http-only", "--header", "KAMUI-CODE-PASS: kamui_Dpcha0qsvsuvbrdieb7Br8Bse3ufxPBNiNrDdJXokZk"]
+timeout = 10000
+trust = true
+
+[mcp_servers."t2s-kamui-minimax-speech-02-turbo"]
+command = "npx"
+args = ["mcp-remote", "https://kamui-code.ai/t2s/fal/minimax/speech-02-turbo", "--transport", "http-only", "--header", "KAMUI-CODE-PASS: kamui_Dpcha0qsvsuvbrdieb7Br8Bse3ufxPBNiNrDdJXokZk"]
+timeout = 10000
+trust = true
+
+[mcp_servers."t2m-kamui-lyria"]
+command = "npx"
+args = ["mcp-remote", "https://kamui-code.ai/t2m/google/lyria", "--transport", "http-only", "--header", "KAMUI-CODE-PASS: kamui_Dpcha0qsvsuvbrdieb7Br8Bse3ufxPBNiNrDdJXokZk"]
+timeout = 10000
+trust = true
+
+[mcp_servers."t2m-kamui-minimax-music-v15"]
+command = "npx"
+args = ["mcp-remote", "https://kamui-code.ai/t2m/fal/minimax/music/v1.5", "--transport", "http-only", "--header", "KAMUI-CODE-PASS: kamui_Dpcha0qsvsuvbrdieb7Br8Bse3ufxPBNiNrDdJXokZk"]
+timeout = 10000
+trust = true
+
+[mcp_servers."t2a-kamui-stable-audio-v25"]
+command = "npx"
+args = ["mcp-remote", "https://kamui-code.ai/t2a/fal/stable-audio/v2.5", "--transport", "http-only", "--header", "KAMUI-CODE-PASS: kamui_Dpcha0qsvsuvbrdieb7Br8Bse3ufxPBNiNrDdJXokZk"]
+timeout = 10000
+trust = true
+
+[mcp_servers."v2a-kamui-thinksound"]
+command = "npx"
+args = ["mcp-remote", "https://kamui-code.ai/v2a/fal/thinksound/audio/standard", "--transport", "http-only", "--header", "KAMUI-CODE-PASS: kamui_Dpcha0qsvsuvbrdieb7Br8Bse3ufxPBNiNrDdJXokZk"]
+timeout = 10000
+trust = true
+
+[mcp_servers."t2i-kamui-nano-banana"]
+command = "npx"
+args = ["mcp-remote", "https://kamui-code.ai/t2i/fal/nano-banana", "--transport", "http-only", "--header", "KAMUI-CODE-PASS: kamui_Dpcha0qsvsuvbrdieb7Br8Bse3ufxPBNiNrDdJXokZk"]
+timeout = 10000
+trust = true
+
+[mcp_servers."i2i-kamui-gemini-25-flash-image-edit"]
+command = "npx"
+args = ["mcp-remote", "https://kamui-code.ai/i2i/fal/gemini-25-flash-image/edit", "--transport", "http-only", "--header", "KAMUI-CODE-PASS: kamui_Dpcha0qsvsuvbrdieb7Br8Bse3ufxPBNiNrDdJXokZk"]
+timeout = 10000
+trust = true
+
+[mcp_servers."t2i-kamui-gemini-25-flash-image"]
+command = "npx"
+args = ["mcp-remote", "https://kamui-code.ai/t2i/fal/gemini-25-flash-image", "--transport", "http-only", "--header", "KAMUI-CODE-PASS: kamui_Dpcha0qsvsuvbrdieb7Br8Bse3ufxPBNiNrDdJXokZk"]
+timeout = 10000
+trust = true
+
+[mcp_servers."t2i-kamui-seedream-v4"]
+command = "npx"
+args = ["mcp-remote", "https://kamui-code.ai/t2i/fal/bytedance/seedream/v4", "--transport", "http-only", "--header", "KAMUI-CODE-PASS: kamui_Dpcha0qsvsuvbrdieb7Br8Bse3ufxPBNiNrDdJXokZk"]
+timeout = 10000
+trust = true
+
+[mcp_servers."i2i-kamui-seedream-v4-edit"]
+command = "npx"
+args = ["mcp-remote", "https://kamui-code.ai/i2i/fal/bytedance/seedream/v4", "--transport", "http-only", "--header", "KAMUI-CODE-PASS: kamui_Dpcha0qsvsuvbrdieb7Br8Bse3ufxPBNiNrDdJXokZk"]
+timeout = 10000
+trust = true
+
+[mcp_servers."i2i3d-kamui-hunyuan3d-v21"]
+command = "npx"
+args = ["mcp-remote", "https://kamui-code.ai/i2i3d/fal/hunyuan/3d-v21", "--transport", "http-only", "--header", "KAMUI-CODE-PASS: kamui_Dpcha0qsvsuvbrdieb7Br8Bse3ufxPBNiNrDdJXokZk"]
+timeout = 10000
+trust = true
+
+[mcp_servers."i2i3d-kamui-tripo3d-image-to-3d"]
+command = "npx"
+args = ["mcp-remote", "https://kamui-code.ai/i2i3d/fal/tripo3d/tripo/v25/image-to-3d", "--transport", "http-only", "--header", "KAMUI-CODE-PASS: kamui_Dpcha0qsvsuvbrdieb7Br8Bse3ufxPBNiNrDdJXokZk"]
+timeout = 10000
+trust = true
+
+[mcp_servers."i2i3d-kamui-trellis"]
+command = "npx"
+args = ["mcp-remote", "https://kamui-code.ai/i2i3d/fal/trellis", "--transport", "http-only", "--header", "KAMUI-CODE-PASS: kamui_Dpcha0qsvsuvbrdieb7Br8Bse3ufxPBNiNrDdJXokZk"]
+timeout = 10000
+trust = true
+
+[mcp_servers."t2visual-kamui-napkin"]
+command = "npx"
+args = ["mcp-remote", "https://kamui-code.ai/t2visual/napkin/visual", "--transport", "http-only", "--header", "KAMUI-CODE-PASS: kamui_Dpcha0qsvsuvbrdieb7Br8Bse3ufxPBNiNrDdJXokZk"]
+timeout = 10000
+trust = true
+
+[mcp_servers."i2v-kamui-omnihuman-v15"]
+command = "npx"
+args = ["mcp-remote", "https://kamui-code.ai/i2v/fal/bytedance/omnihuman-v1.5", "--transport", "http-only", "--header", "KAMUI-CODE-PASS: kamui_Dpcha0qsvsuvbrdieb7Br8Bse3ufxPBNiNrDdJXokZk"]
+timeout = 10000
+trust = true
+
+[mcp_servers."i2i-kamui-nano-banana-edit"]
+command = "npx"
+args = ["mcp-remote", "https://kamui-code.ai/i2i/fal/nano-banana/edit", "--transport", "http-only", "--header", "KAMUI-CODE-PASS: kamui_Dpcha0qsvsuvbrdieb7Br8Bse3ufxPBNiNrDdJXokZk"]
+timeout = 10000
+trust = true
+
+[mcp_servers."i2i-kamui-qwen-image-edit-plus"]
+command = "npx"
+args = ["mcp-remote", "https://kamui-code.ai/i2i/fal/qwen-image-edit-plus", "--transport", "http-only", "--header", "KAMUI-CODE-PASS: kamui_Dpcha0qsvsuvbrdieb7Br8Bse3ufxPBNiNrDdJXokZk"]
+timeout = 10000
+trust = true
+
+[mcp_servers."v2v-kamui-wan-v2-2-14b-animate-replace"]
+command = "npx"
+args = ["mcp-remote", "https://kamui-code.ai/v2v/fal/wan/v2.2-14b/animate/replace", "--transport", "http-only", "--header", "KAMUI-CODE-PASS: kamui_Dpcha0qsvsuvbrdieb7Br8Bse3ufxPBNiNrDdJXokZk"]
+timeout = 10000
+trust = true
